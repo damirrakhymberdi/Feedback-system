@@ -1,0 +1,38 @@
+{
+  "name": "feedback-system",
+  "version": "1.0.0",
+  "description": "Modern feedback system with Vue.js frontend and Express.js backend",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": "^20.19.0 || >=22.12.0"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "start": "npm run dev",
+    "backend": "cd backend && npm start",
+    "install:all": "npm install && cd backend && npm install",
+    "setup": "npm run install:all && echo 'Setup complete! Run npm run dev for frontend and npm run backend for backend'"
+  },
+  "keywords": [
+    "feedback",
+    "vue",
+    "express",
+    "mysql",
+    "api",
+    "rating",
+    "system"
+  ],
+  "author": "AI IDE BAS",
+  "license": "MIT",
+  "dependencies": {
+    "vue": "^3.5.22"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^6.0.1",
+    "vite": "^7.1.7",
+    "vite-plugin-vue-devtools": "^8.0.2"
+  }
+}
